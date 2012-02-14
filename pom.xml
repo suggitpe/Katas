@@ -16,6 +16,13 @@
         <scala.plugin.version>2.15.2</scala.plugin.version>
     </properties>
 
+    <modules>
+        <module>1-novice</module>
+        <module>2-beginner</module>
+        <module>3-competent</module>
+        <module>4-proficient</module>
+        <module>5-expert</module>
+    </modules>
     <build>
         <pluginManagement>
             <plugins>
@@ -112,8 +119,6 @@
         </profile>
     </profiles>
 
-    <modules>
-    </modules>
 
     <dependencyManagement>
         <dependencies>
