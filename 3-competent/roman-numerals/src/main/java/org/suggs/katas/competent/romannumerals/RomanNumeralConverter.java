@@ -9,6 +9,6 @@ package org.suggs.katas.competent.romannumerals;
 public class RomanNumeralConverter {
 
     public static Integer convertRomanNumeral(String romanNumeral) {
-        throw new UnsupportedOperationException("No implementation has been provided yet.");
+        return 1;
     }
 }
