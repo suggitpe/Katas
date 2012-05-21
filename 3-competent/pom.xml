@@ -14,9 +14,7 @@
     <name>Suggs Katas Competent Parent</name>
 
     <modules>
-    <!--
-        <module>cough-syrup</module>
-    -->
+        <module>roman-numerals</module>
     </modules>
 
     <dependencies>
