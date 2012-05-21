@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
  * Time: 10:26
  */
 @RunWith(Cucumber.class)
-@Cucumber.Options(format={"pretty", "html:target/cucumber"})
+@Cucumber.Options(format = {"pretty", "html:target/cucumber"})
 public class RomanNumeralsTest {
 }
