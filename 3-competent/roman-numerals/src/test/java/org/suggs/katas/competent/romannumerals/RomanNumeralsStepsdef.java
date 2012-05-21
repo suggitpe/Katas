@@ -8,11 +8,12 @@ import static org.junit.Assert.assertThat;
 import static org.suggs.katas.competent.romannumerals.RomanNumeralConverter.convertRomanNumeral;
 
 /**
- * Steps definition for
+ * Steps definition for the roman numerals kata.
  * User: suggitpe
  * Date: 21/05/12
  * Time: 11:19
  */
+@SuppressWarnings("unused")
 public class RomanNumeralsStepsdef {
 
     String romanNumeral;
