@@ -5,7 +5,6 @@ import cucumber.annotation.en.When;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
-import static org.suggs.katas.competent.romannumerals.RomanNumeralConverter.convertRomanNumeral;
 
 /**
  * Steps definition for the roman numerals kata.
@@ -16,6 +15,7 @@ import static org.suggs.katas.competent.romannumerals.RomanNumeralConverter.conv
 @SuppressWarnings("unused")
 public class RomanNumeralsStepsdef {
 
+    RomanNumeralConverter converter = new RomanNumeralConverter();
     String romanNumeral;
 
     @When("^I convert the roman numeral (.+)$")
@@ -25,6 +25,6 @@ public class RomanNumeralsStepsdef {
 
     @Then("^the decimal value should be (\\d+)$")
     public void the_decimal_value_should_be(int aConvertedRomanNumeral) {
-        assertThat(convertRomanNumeral(romanNumeral), equalTo(aConvertedRomanNumeral));
+        assertThat(converter.convertRomanNumeral(romanNumeral), equalTo(aConvertedRomanNumeral));
     }
 }
