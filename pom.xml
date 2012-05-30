@@ -155,12 +155,12 @@
             <dependency>
                 <groupId>info.cukes</groupId>
                 <artifactId>cucumber-java</artifactId>
-                <version>1.0.4</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>info.cukes</groupId>
                 <artifactId>cucumber-junit</artifactId>
-                <version>1.0.4</version>
+                <version>1.0.8</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -8,7 +8,7 @@ package org.suggs.katas.competent.romannumerals;
  */
 public class RomanNumeralConverter {
 
-    public static Integer convertRomanNumeral(String romanNumeral) {
+    public Integer convertRomanNumeral(String aRomanNumeral) {
         throw new UnsupportedOperationException("No implementation has been provided yet.");
     }
 }

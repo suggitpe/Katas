@@ -12,7 +12,8 @@ Feature: Convert roman numerals to decimal
     | I             | 1             |
     | II            | 2             |
     | IV            | 4             |
-    | VII           | 6             |
+    | VII           | 7             |
+    | IX            | 9             |
     | X             | 10            |
     | XX            | 20            |
     | L             | 50            |
@@ -22,4 +23,4 @@ Feature: Convert roman numerals to decimal
     | MDCCCCX       | 1910          |
     | MCMLIV        | 1954          |
     | MCMXC         | 1990          |
-    | MCMXC         | 2008          |
+    | MMVIII        | 2008          |
