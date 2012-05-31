@@ -14,14 +14,6 @@
     <name>Suggs Katas Competent Roman Numerals</name>
 
     <dependencies>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-java</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-junit</artifactId>
-        </dependency>
     </dependencies>
   
 </project>
