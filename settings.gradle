@@ -1,3 +1,4 @@
 include '1-novice:cough-syrup',
         '1-novice:fizz-buzz',
+        '1-novice:nasa-countdown',
         '3-competent:roman-numerals'

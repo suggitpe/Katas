@@ -1,15 +1,15 @@
-package org.suggs.katas.novice.coughsyrup;
+package org.suggs.katas.novice.fizzbuzz;
 
 import cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 /**
- * Test execution class for cough syrup kata.
+ * Test execution class for the fizz buzz kata.
  * User: suggitpe
- * Date: 31/05/12
- * Time: 07:15
+ * Date: 07/06/12
+ * Time: 07:34
  */
 @RunWith(Cucumber.class)
 @Cucumber.Options(format = {"pretty", "html:target/cucumber"})
-public class CoughSyrupTest {
+public class FizzBuzzTest {
 }

@@ -2,6 +2,9 @@ subprojects {
 
     apply plugin: 'java'
     apply plugin: 'maven'
+    apply plugin: 'idea'
+
+    group = 'org.suggs.katas'
 
     repositories {
         mavenLocal()
@@ -21,6 +24,12 @@ subprojects {
 
     jar {
         manifest.attributes provider: 'gradle'
+    }
+
+    task srcDirs << {
+        sourceSets.main.java.tstDirs.each {
+            println it.absolutePath
+        }
     }
 
 }

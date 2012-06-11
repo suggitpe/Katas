@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <artifactId>suggs-katas-novice-parent</artifactId>
+        <groupId>org.suggs.katas</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>suggs-katas-novice-nasa-countdown</artifactId>
+    <packaging>jar</packaging>
+    <name>Suggs Katas Novice Nasa Countdown</name>
+
+    <dependencies>
+    </dependencies>
+
+</project>
