@@ -17,6 +17,7 @@
         <module>cough-syrup</module>
         <module>fizz-buzz</module>
         <module>nasa-countdown</module>
+        <module>tea-party</module>
     </modules>
 
     <dependencies>
