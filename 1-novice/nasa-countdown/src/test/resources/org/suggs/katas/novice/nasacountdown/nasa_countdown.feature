@@ -5,5 +5,4 @@ Feature: Countdown from any number to zero
 
   Scenario:
     When I request a countdown from 21
-    Then I expect an array with 21 numbers
-    And the array countdown in order from 21 to 0
+    Then the array countdown in order from 21 to 0
