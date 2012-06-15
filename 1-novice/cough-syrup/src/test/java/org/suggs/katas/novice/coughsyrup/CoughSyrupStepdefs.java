@@ -2,7 +2,6 @@ package org.suggs.katas.novice.coughsyrup;
 
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
-import cucumber.runtime.PendingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,7 +27,7 @@ public class CoughSyrupStepdefs {
     @When("^I calculate the common divisor for (\\d+) / (\\d+)$")
     public void I_calculate_the_common_divisor_for_(int aNumerator, int aDenominator) throws Throwable {
         numerator = aNumerator;
-        denominator= aDenominator;
+        denominator = aDenominator;
     }
 
     @Then("^the greatest common divisor should be (\\d+)$")
