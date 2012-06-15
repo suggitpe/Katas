@@ -2,7 +2,6 @@ package org.suggs.katas.novice.teaparty;
 
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
-import cucumber.runtime.PendingException;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -12,9 +11,10 @@ import static org.junit.Assert.assertThat;
  * Date: 13/06/12
  * Time: 07:21
  */
+@SuppressWarnings("unused")
 public class TeaPartyStepdefs {
 
-    private TeaPartyGreeter greeter= new TeaPartyGreeter();
+    private TeaPartyGreeter greeter = new TeaPartyGreeter();
     private String name;
     private boolean female;
     private Boolean knighted;
@@ -26,7 +26,7 @@ public class TeaPartyStepdefs {
 
     @When("^when their sex is (.+)$")
     public void whenTheirSexIs(String sex) {
-        female = "female".equals(sex)?true:false;
+        female = "female".equals(sex);
     }
 
     @When("^when their Knighted status is (.+)$")
