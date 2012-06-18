@@ -2,6 +2,8 @@ package org.suggs.katas.competent.romannumerals;
 
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
@@ -15,6 +17,7 @@ import static org.junit.Assert.assertThat;
 @SuppressWarnings("unused")
 public class RomanNumeralsStepsdef {
 
+    private static final Logger LOG = LoggerFactory.getLogger(RomanNumeralsStepsdef.class);
     RomanNumeralConverter converter = new RomanNumeralConverter();
     String romanNumeral;
 
