@@ -1,0 +1,6 @@
+include '1-novice:cough-syrup',
+        '1-novice:fizz-buzz',
+        '1-novice:nasa-countdown',
+        '1-novice:tea-party',
+        '1-novice:telepromter',
+        '3-competent:roman-numerals'
