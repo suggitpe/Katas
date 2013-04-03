@@ -1,4 +1,4 @@
-target
+target/
 *.iml
 *.ipr
 *.iws
@@ -6,4 +6,4 @@ target
 .classpath
 .project
 .gradle
-build
+build/
